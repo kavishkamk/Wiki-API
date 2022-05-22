@@ -35,11 +35,27 @@ node app.js
 ## Use this Wiki-API
 
 - GET all Article
-
-- DELETE all Article
-
+    - https://kavishkamk-wiki-api.herokuapp.com/article
 - GET spesific Article
-
+    - https://kavishkamk-wiki-api.herokuapp.com/article/title
+    - 'title' shoud be article title
 - POST new Article
-
-- 
+    - https://kavishkamk-wiki-api.herokuapp.com/article
+    - should contain following paramiters with POST request
+        - title=""
+        - content=""
+- PUT Article
+    - https://kavishkamk-wiki-api.herokuapp.com/article
+    - should contain following paramiters with PUT request
+        - title=""
+        - content=""
+- PATCH Article
+    - https://kavishkamk-wiki-api.herokuapp.com/article/title
+    - have to contain following paramiters if they want to update with PUT request
+        - title=""
+        - content=""
+- DELETE all Article
+    - https://kavishkamk-wiki-api.herokuapp.com/article
+- DELETE spesific Article
+    - https://kavishkamk-wiki-api.herokuapp.com/article/title
+    - 'title' mean the artical title that we want to delete
